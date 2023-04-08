@@ -4,6 +4,7 @@
   margin-top: 180px;
 }
 
+
 button {
   width: 180px;
   height: 60px;
@@ -24,8 +25,16 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 button:hover,
 button:focus {
   transform: scale(1.1);
   background-color: rgb(202, 69, 169);
 }
+
+button:disabled {
+  opacity: 0.5;
+  transform: scale(1);
+  background-color: rgb(14, 14, 231);
+}
+

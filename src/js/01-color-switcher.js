@@ -14,6 +14,7 @@ stopBtn.addEventListener('click', onStopClick);
 const INTERVAL_DELAY = 1000;
 let intervalId = null;
 let btnIsActive = (startBtn.disabled = false);
+let btnNotActive = (stopBtn.disabled = false);
 
 function onStartClick() {
 
@@ -23,14 +24,15 @@ function onStartClick() {
 
   intervalId = setInterval(callBackSetInterval, INTERVAL_DELAY);
 
-  btnIsActive = true;
+  btnIsActive = (startBtn.disabled = true);
+  btnNotActive = (stopBtn.disabled = false)
 
-  console.log("ghjhjh")
 }
 
 function onStopClick() {
   clearInterval(intervalId);
-  btnIsActive = false;
+  btnIsActive = (startBtn.disabled = false);
+  btnNotActive = (stopBtn.disabled = true)
 }
 
 function callBackSetInterval() {
