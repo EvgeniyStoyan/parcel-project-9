@@ -29,8 +29,10 @@ const options = {
 
       Notify.warning("Please choose a date in the future",
         {
-          timeout: 6000,
-          width: '300px',
+          timeout: 5000,
+          width: '500px',
+          fontSize: "25px",
+          position: "center-center"
         },);
     }
   },
