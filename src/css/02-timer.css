@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 180px;
+    background-color: rgb(212, 56, 199);
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border: inherit;
+    border-radius: 12px;
+    margin-left: 50px;
+    margin-right: 80px;
+
+    font-weight: bold;
+    font-size: 25px;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 14, 231);
+    outline: 1px solid #2f4f4f;
+    box-shadow: 5px 5px 5px 5px #8d8d8d;
+
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:hover,
+button:focus {
+    transform: scale(1.1);
+    background-color: rgb(52, 201, 7);
+}
+
+button:disabled {
+    opacity: 0.5;
+    transform: scale(1);
+    background-color: rgb(14, 14, 231);
+}
+
+input {
+    text-align: center;
+    width: 280px;
+    height: 40px;
+    padding: 8px;
+    font-size: 22px;
+    color:white ;
+    background-color: rgb(226, 43, 128);
+    border-radius: 12px;
+
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    gap: 20px;
+    font-size: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: rgb(226, 43, 128);
+    border-radius: 15px;
+}
+
+.value {
+  padding: 5px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
