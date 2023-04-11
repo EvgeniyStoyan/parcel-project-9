@@ -1,0 +1,18 @@
+input {
+    width: 180px;
+    height: 28px;
+}
+
+button {
+    width: 120px;
+    height: 28px;
+    border-radius: 8px;
+    margin-left: 15px;
+    background-color: blue;
+    color: white;
+}
+
+button:hover,
+button:focus{
+    background-color: brown;
+}

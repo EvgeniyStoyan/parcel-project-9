@@ -52,7 +52,7 @@ function startTimer() {
 
     updateTimer(time);
 
-    if (deltaTime < 0) {
+    if (deltaTime <= 0) {
 
       clearInterval(intervalId);
 
