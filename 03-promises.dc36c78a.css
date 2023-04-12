@@ -1,0 +1,2 @@
+input{width:180px;height:28px}button{width:120px;height:28px;color:#fff;background-color:#00f;border-radius:8px;margin-left:15px}button:hover{background-color:brown;transition-property:transform;transition-duration:.25s;transition-timing-function:cubic-bezier(.4,0,.2,1);transform:scale(1.1)}
+/*# sourceMappingURL=03-promises.dc36c78a.css.map */
