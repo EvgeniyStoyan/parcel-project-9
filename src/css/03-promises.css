@@ -12,7 +12,11 @@ button {
     color: white;
 }
 
-button:hover,
-button:focus{
+button:hover{
+    transform: scale(1.1);
     background-color: brown;
+
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
